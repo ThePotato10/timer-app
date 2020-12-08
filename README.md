@@ -1,5 +1,5 @@
 # timer-app
-A simple and visually-stunning timer app built on electron
+A simple, visually-stunning, and hackable timer app built on electron
 
 ## To Install
 1. git clone this repository to your local filesystem
