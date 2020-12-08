@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #161925;
+    color: #EFF1ED;
+    font-family: 'Epilogue', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.timer-block {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(10px + 1vw);
+}
+.clock-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30%;
+}
+.clock {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    border: 4px solid #EE4266;
+    background-color: #FFFFFF22;
+}
+#numbers {
+    font-size: calc(10px + 1.2vw);
+}
+.center-ball {
+    width: 3vw;
+    height: 3vw;
+    border: none;
+    display: inline;
+    background-color: #EE4266;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 1.5vw);
+    top: calc(50% - 1.5vw);
+}
+.hand {
+    background-color: #1599aa;
+    height: 22%;
+    max-height: 22%;
+    width: 0.4%;
+    display: inline-block;
+    z-index: -3;
+    position: absolute;
+    top: 29%;
+    left: 49.8%;
+    transform-origin: bottom;
+    transition: all 0.1s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+button {
+    padding: 20px;
+    background-color: #EE4266;
+    color: #1f1f1f;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #EE4266aa;
+}
+.detail {
+    color: #797D81;
+}

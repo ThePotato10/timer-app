@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type='text/css' rel='stylesheet' href='./main.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap" rel="stylesheet">
+        <script src='./timer.js'></script>
+        <title>Time Aspect</title>
+    </head>
+    <body>
+        <div class='timer-block'>
+            <h1>Timer</h1>
+        </div>
+        <div class='clock-container'>
+            <div class='clock'>
+                <div class='hand' id='hand'></div>
+                <div class='center-ball'></div>
+            </div>
+            <div class='number-text'>
+                <span id='numbers'>00:00:00</span>
+            </div>
+            <div class='timer-button-wrapper'>
+                <button id='timer-button' onclick="getTime()">Set Timer</button>
+                <button id='reset-button' onclick="reset()">Reset Timer</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "timer-app",
+  "version": "1.0.0",
+  "description": "A simple yet visually-stunning electron-based stopwatch and timer app",
+  "main": "electron/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./electron/index.js"
+  },
+  "keywords": [
+    "timer",
+    "stopwatch",
+    "electron",
+    "cross-platform",
+    "linux",
+    "windows",
+    "macos"
+  ],
+  "author": "JD Peppelman",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.0.3"
+  },
+  "dependencies": {
+    "dialogs": "^2.0.1"
+  }
+}
