@@ -34,28 +34,14 @@ body {
 #numbers {
     font-size: calc(10px + 1.2vw);
 }
-.center-ball {
-    width: 3vw;
-    height: 3vw;
-    border: none;
-    display: inline;
-    background-color: #EE4266;
-    border-radius: 50%;
-    position: absolute;
-    left: calc(50% - 1.5vw);
-    top: calc(50% - 1.5vw);
-}
 .hand {
     background-color: #1599aa;
-    height: 22%;
-    max-height: 22%;
-    width: 0.4%;
-    display: inline-block;
-    z-index: -3;
-    position: absolute;
-    top: 29%;
-    left: 49.8%;
+    height: 16vw;
+    width: 2px;
     transform-origin: bottom;
+    position: absolute;
+    left: 50%;
+    top: calc(50vh - 16vw);
     transition: all 0.1s cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 button {
