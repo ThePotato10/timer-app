@@ -50,6 +50,7 @@ button {
     color: #1f1f1f;
     border: none;
     border-radius: 10px;
+    width: 120px;
 }
 button:hover {
     background-color: #EE4266aa;
