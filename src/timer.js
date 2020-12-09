@@ -1,4 +1,6 @@
-const Dialogs = require('dialogs');
+// Project dependencies are electron and dialogs
+
+const Dialogs = require('dark-dialogs');
 const dialogs = Dialogs();
 
 function valueIsNaN(v) { return v !== v; } // Compares NaN values, because fuck javascript

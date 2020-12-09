@@ -22,6 +22,6 @@
     "electron": "^11.0.3"
   },
   "dependencies": {
-    "dialogs": "^2.0.1"
+    "dark-dialogs": "^1.0.1"
   }
 }
