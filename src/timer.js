@@ -92,4 +92,5 @@ function notification () {
     });
 }
 
-const reset = () => window.location.reload(); // Wrapper function to reset the clock, but really just reloads the app, clearing event loop
+// Wrapper function to reset the clock, but really just reloads the app, clearing event loop
+const reset = () => window.location.reload(); 
